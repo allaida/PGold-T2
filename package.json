@@ -1,0 +1,40 @@
+{
+  "name": "pgold-term-2-coursework",
+  "version": "1.0.0",
+  "description": "PGold Server side script Term 2 coursework",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server.js",
+    "pretest": "eslint index.js"
+  },
+  "keywords": [
+    "Server",
+    "side",
+    "script",
+    "PGold",
+    "coursework",
+    "Term",
+    "2",
+    "Year",
+    "2",
+    "Programming",
+    "Gold",
+    "Dynamic",
+    "website"
+  ],
+  "author": "Allaida",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "jest": "^27.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "nodemon": "^2.0.15"
+  }
+}
